@@ -262,5 +262,28 @@
 			</div>
 		</div>
 	</div>
+<style>
+header{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+header button{
+	height: 40px;
+	width: 50px;
+	cursor: pointer;
+}
+header button:hover{
+	transform: scale(1.15);
+}
+</style>
+<header>
+<button onclick="myfun()">Print</button>
+<script type="text/javascript">
+	function myfun() {
+	window.print();
+}
+</script>
+</header>
 </body>
 </html>
